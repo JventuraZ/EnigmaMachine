@@ -1,0 +1,136 @@
+* {
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    background: rgb(42, 24, 8);
+    background: radial-gradient(circle, rgba(42, 24, 8, 1) 0%, rgba(8, 6, 4, 1) 43%, rgba(0, 0, 0, 1) 54%, rgba(1, 0, 21, 1) 100%, rgba(11, 8, 6, 1) 100%);
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.mainSection {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: rgb(42, 24, 8);
+    background: radial-gradient(circle, rgba(42, 24, 8, 1) 0%, rgba(8, 6, 4, 1) 43%, rgba(0, 0, 0, 1) 54%, rgba(1, 0, 21, 1) 100%, rgba(11, 8, 6, 1) 100%);
+    margin: 1.5rem;
+}
+
+.BoxRight {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 3rem 8rem;
+    min-width: 30rem;
+    min-height: 30rem;
+    width: auto;
+    height: auto;
+    top: 2.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0.1, 0.1, 0.1, 0.1);
+    border-color: black;
+}
+
+.BoxLeft {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding-left: 5rem;
+    width: 30rem;
+    height: 30rem;
+}
+
+.buttonSpacing {
+    width: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+
+}
+
+.auto-resize {
+    background-color: #000000;
+    color: white;
+    border: solid 1px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 30rem;
+    height: 30rem;
+    min-height: 50px;
+    resize: none;
+    padding: 10px;
+
+
+
+}
+
+.boxImage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    margin: 3rem;
+}
+
+.btnCip {
+    background-color: slategray;
+    border-radius: 1rem;
+}
+
+.button {
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 0px 0px 0px 0px solid rgb(0, 0, 0);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+
+.button-animated {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    color: black;
+
+}
