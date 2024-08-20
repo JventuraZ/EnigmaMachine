@@ -20,7 +20,7 @@
     <div class="mainSection">
         <div class="BoxLeft">
             <div class="button-container">
-                <textarea id="inputText" class="auto-resize" oninput="permitirSomenteAlfanumerico(event)" >
+                <textarea id="inputText" class="auto-resize" oninput="permitirSomenteAlfanumerico(event)">
                 </textarea>
                 <br>
                 <div class=buttonSpacing>
@@ -30,31 +30,18 @@
             </div>
         </div>
         <div class="BoxRight">
-            <div id="infoText" class="boxImage"><img src="img/enigma-030919.webp" width="320" height="205" /></div>
-            <textarea id="outputText" oninput="resizeTextarea(this)" style="font-family: Inter;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 28.8px;
-            text-align: center;
-            overflow: hidden;
-            resize: none;
-            border: none;
-            box-sizing: border-box;
-            width: auto;
-            ">Nenhuma mensagem encontrada</textarea>
+            <div id="infoText" class="boxImage"><img class="img" src="img/enigma-030919.webp" /></div>
+            <textarea class="textBox1" id="outputText" oninput="resizeTextarea(this)" style="font-family: Inter;">
+            Nenhuma mensagem encontrada</textarea>
 
-            <p style="font-family: Inter;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 28.8px;
-            text-align: center;
-            ">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <p class="textBox2" style="font-family: Inter;"> 
+            Digite um texto que você deseja criptografar ou descriptografar.</p>
 
             <button class="button" onclick="copyToClipboard()">Copiar</button>
         </div>
     </div>
     <footer class="footer">
-        <p>&copy; <span id="currentYear"></span> João Victor Ventura de Oliveira       S2024</p>
+        <p>&copy; <span id="currentYear"></span> João Victor Ventura de Oliveira S2024</p>
     </footer>
 
 
